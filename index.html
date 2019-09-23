@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Header Clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script async src="https://kit.fontawesome.com/274a7e25f8.js" crossorigin="anonymous"></script>
+    <script async src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Start Bootstrap</h1>
+        </div>
+        <nav>
+          <li class="selected">SERVICES</li>
+          <li>PORTFOLIO</li>
+          <li>ABOUT</li>
+          <li>TEAM</li>
+          <li>CONTACT</li>
+          <div onclick="clickHamburger()" class="menubar">
+              <i>Menu</i>
+              <i
+              class="fas fa-bars fa"
+              ></i>
+              
+          </div>
+        </nav>
+      </div>
+      <div id="dropdown" class="dropdown hide">
+        <div class="container">
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </div>
+      </div>
+    </header>
+    <div class="banner">
+        <h3>Welcome To Our Studio!</h3>
+        <h1>IT'S NICE TO MEET YOU</h1>
+        <button>TELL ME MORE</button>
+    </div>
+  </body>
+</html>
