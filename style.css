@@ -159,12 +159,17 @@
     .banner {
         width: 100vw;
         height: 55vh;
-        background-size: 100%;
+        /* background-size: 100%; */
         padding: 50px;
         font-size: 1rem;
+        background-position: top;
+     
     }
     header {
         background: solid;
         background-color: #212529;
+    }
+    .logo > h1 {
+        font-size: 1.75rem;
     }
   }
